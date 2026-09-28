@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {"start":"node server.mjs"},
-  "dependencies": {"openai":"latest"}
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "latest"
+  }
 }
